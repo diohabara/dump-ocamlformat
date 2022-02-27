@@ -1,0 +1,7 @@
+(library
+ (public_name dump_ocamlformat)
+ (inline_tests)
+ (name dump_ocamlformat)
+ (libraries core)
+ (preprocess
+  (pps ppx_inline_test)))

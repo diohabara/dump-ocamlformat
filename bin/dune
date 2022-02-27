@@ -1,0 +1,4 @@
+(executable
+ (public_name dump_ocamlformat)
+ (name main)
+ (libraries dump_ocamlformat))
