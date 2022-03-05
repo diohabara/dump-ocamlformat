@@ -28,10 +28,10 @@ let preset_config : string =
 let dump_preset_config (filename : string) : unit =
   match Sys.is_file filename with
   | `Yes ->
-    ".ocamlformat has bee updated." |> paint_as_cyan |> print_endline;
+    ".ocamlformat has been updated." |> paint_as_cyan |> print_endline;
     Out_channel.write_all filename ~data:preset_config
   | `No ->
-    ".ocamlformat has benn created." |> paint_as_cyan |> print_endline;
+    ".ocamlformat has been created." |> paint_as_cyan |> print_endline;
     Out_channel.write_all filename ~data:preset_config
   | `Unknown -> "ERROR: .ocamlformat may exist." |> paint_as_red |> print_endline
 ;;
