@@ -1,16 +1,16 @@
 open! Core
 
-let append_reset s = s ^ "\\u001b[0m"
+let append_reset s = s ^ "\027[0m"
 
 let escape_of_color =
-  [ "black", "\\u001b[30m"
-  ; "red", "\\u001b[31m"
-  ; "green", "\\u001b[32m"
-  ; "yellow", "\\u001b[33m"
-  ; "blue", "\\u001b[34m"
-  ; "magenta", "\\u001b[35m"
-  ; "cyan", "\\u001b[36m"
-  ; "white", "\\u001b[37m"
+  [ "black", "\027[30m"
+  ; "red", "\027[31m"
+  ; "green", "\027[32m"
+  ; "yellow", "\027[33m"
+  ; "blue", "\027[34m"
+  ; "magenta", "\027[35m"
+  ; "cyan", "\027[1;36m"
+  ; "white", "\027[37m"
   ]
 ;;
 
