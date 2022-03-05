@@ -1,8 +1,8 @@
-(lang dune 2.9)
+(lang dune 3.0)
 
 (name dump_ocamlformat)
 
-(version 0.1.1)
+(version 0.1.2)
 
 (generate_opam_files true)
 
