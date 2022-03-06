@@ -2,8 +2,6 @@
 
 (name dump_ocamlformat)
 
-(version 0.1.3)
-
 (generate_opam_files true)
 
 (license MIT)
