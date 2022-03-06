@@ -26,10 +26,6 @@
    (<= 4.13.1))
   (ocamlformat
    (<= 0.20.1))
-  (ocamlformat-rpc
-   (<= 0.20.1))
-  (ocaml-lsp-server
-   (<= 1.10.3))
   (odoc
    (<= 2.1.0)))
  (synopsis "Dump preset configuration files for ocamlformat")
