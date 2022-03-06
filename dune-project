@@ -15,8 +15,6 @@
 (source
  (github diohabara/dump_ocamlformat))
 
-(documentation "https://github.com/diohabara/dump_ocamlformat#readme")
-
 (package
  (name dump_ocamlformat)
  (depends
